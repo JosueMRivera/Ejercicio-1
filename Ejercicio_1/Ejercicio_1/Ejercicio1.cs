@@ -33,6 +33,7 @@ namespace Ejercicio_1
             string r1 = paroimpar(Convert.ToInt32(numerotxt.Text));
             string r2 = positivoonegativo(Convert.ToInt32(numerotxt.Text));
             MessageBox.Show("El numero ingresado es " + r1 + r2, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            numerotxt.Clear();
         }
 
         private string paroimpar(int n1)
@@ -65,7 +66,7 @@ namespace Ejercicio_1
 
         }
 
-
+        
 
     }
 }
